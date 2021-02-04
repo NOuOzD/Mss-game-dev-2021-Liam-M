@@ -4,8 +4,8 @@ Links to all my files<br>
 
 <li><a href="https://www.google.ca/">Google</a> <br><br>
 
-<li><a href="...">My Github</a>
-<li><a href="...">My Website Index on Github</a> <br><br>
+<li><a href="https://github.com/NOuOzD/Mss-game-dev-2021-Liam-M/blob/main/README.md">My Github</a>
+<li><a href="https://nouozd.github.io/Mss-game-dev-2021-Liam-M/public/index.html">My Website Index on Github</a> <br><br>
 
 <li><a href="...">...</a>
 <li><a href="...">...</a>
