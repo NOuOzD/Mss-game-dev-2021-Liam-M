@@ -1,10 +1,23 @@
-<h1 align=center>T3A03-webpage-Liam.html </h1>
+<html>
+<body style="background-color:Aquamarine;">
 
-<b>Text, Webpage basic stuff</b><br>
+<h1 align=center>T3A03-webpage-Liam.html</h1>
+
+</body>
+</html>
+
+<b>Text, Webpage basic stuff</b><br><br>
+
+Button: <input type=button value="Cool Button" onClick="{
+   alert('Hello')                                                    
+ }"><br>
+
 <b>Images: <img width= 400 src="https://www.ynov-paris.com/medias/uploads/2020/05/game-art.jpg">
 <img width= 400 src="https://gamespot1.cbsistatic.com/uploads/original/1575/15759911/3431885-hollow-knight-review-thumb-nologo.jpg"></b><br><br>
 <b>links:<a href="https://www.google.ca">Google</a>,
-<a href="https://elgoog.im/t-rex/">Google Dino</a></b><br><br>
+<a href="https://elgoog.im/t-rex/">Google Dino</a>,
+<a href="https://diep.io/">Tank game</a>,
+<a href="https://snake.io/">Snake game</a></b><br><br>
 
 <i>Game review </i><br>
 <table border=2>
