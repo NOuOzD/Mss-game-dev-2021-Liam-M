@@ -7,8 +7,8 @@ Links to all my files<br>
 <li><a href="https://github.com/NOuOzD/Mss-game-dev-2021-Liam-M">My Github</a>
 <li><a href="https://nouozd.github.io/Mss-game-dev-2021-Liam-M/public/index.html">My Website Index on Github</a> <br><br>
 
-<li><a href="T3A03-webpage-Liam.html">T3A03-webpage-Liam</a>
-<li><a href="...">...</a>
+<li><a href="T3A03-webpage-Liam,M.html">T3A03-webpage-Liam,M</a>
+<li><a href="T3A05-forms-Liam,M.html">T3A05-forms-Liam,M</a>
 <li><a href="...">...</a>
 <li><a href="...">...</a>
 <li><a href="...">...</a>

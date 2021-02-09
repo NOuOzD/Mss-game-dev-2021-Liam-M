@@ -1,0 +1,36 @@
+<h1 align=center>T3A05-forms-Liam,M.html </h1>
+
+<b>Different forms entries for webpages</b><br><br>
+
+Colour: <input type="color" id="myColour"><br>
+
+Button: <input type=button value="press for alert" onClick="{
+   alert('Hello World')                                                    
+ }"><br>
+
+Text: <input id="myText01" type=text value=Liam><br>
+
+Number: <input id="myNum01" type=number value=5><br>
+
+Password:<input type="password"><br>
+
+Checkbox:<input type="checkbox">
+
+Radio:<input type="radio"><br>
+
+Reset:<input type="reset">
+
+Submit:<input type="Submit"><br>
+
+<b>Fancy Web stuff</b><br><br>
+<select size=1>
+	<option value="apple">Fruit
+	<option value="steak">Meat
+ </select>
+
+ <textarea id="myArea01" rows=4 cols=20>
+ Text,Text,Text
+ </textarea>
+
+
+
