@@ -1,0 +1,123 @@
+<html>
+<head>
+<style>
+div.a {
+  width: 130px;
+  height: 70px;
+  background-color: Chartreuse;
+  -ms-transform: rotate(40deg); 
+  transform: rotate(40deg);
+} 
+.cell {cursor: cell;}
+.crosshair {cursor: crosshair;}
+.no-drop {cursor: no-drop;}
+.progress {cursor: progress;}
+.wait {cursor: wait;}
+#grad1 {
+  height: 100px;
+  background-color: #f70000;
+  background-image: linear-gradient(Blue, BlueViolet, Purple);
+}
+#grad2 {
+  height: 100px;
+  background-color: #cccccc;
+  background-image: repeating-linear-gradient(DeepPink, Navy 20%, DodgerBlue 30%);
+}
+</style>
+</head>
+<body style="background-color:Aquamarine;">
+
+<h1 align=center style="color:Aquamarine; background-color:black;">T3A06-CSS-by-Liam,M.html</h1>
+
+</body>
+</html>
+
+
+CSS stands for Cascading Style Sheets. Typically a file is made with a .css extension that has all the CSS formating for your entire website of portentailly hundreds of pages. Example: make the colours red and green at xMass and all pink for Valentines day. <br><br>
+
+You can also use CSS in the Style part of any webpage that defines the colours etc, for that entire webpage.<br><br>
+
+Mr. Ellis teaches "inline CSS" the most powerful type. Every web page tag can have a CSS style to control it.<br><br>
+
+<b > This is not that cool </b><br>
+<b style="color:red; background:green"> This is cool </b><br><br>
+
+Since CSS is cool what is the entire list of things we can do?<br><br>
+
+<a href="https://www.w3schools.com/css/css_examples.asp">w3schools css examples</a><br>
+
+<a href="https://www.tutorialrepublic.com/css-tutorial/css-get-started.php">tutorialrepublic.com css examples</a><br>
+
+<a href="https://css-tricks.com/css-style-guides/">css-tricks.com css examples</a><br>
+
+<p align=center style="color:Aquamarine; background-color:black;">CSS STUFF</p><br>
+
+<b>Opacity Css style:</b><br>
+
+<text  style=" opacity: 0.1; color:Aquamarine; background-color:black;">Opacity 0.1</text><br>
+
+<text  style=" opacity: 0.3; color:Aquamarine; background-color:black;">Opacity 0.3</text><br>
+
+<text  style=" opacity: 0.5; color:Aquamarine; background-color:black;">Opacity 0.5</text><br>
+
+<text  style=" opacity: 0.7; color:Aquamarine; background-color:black;">Opacity 0.7</text><br>
+
+<text  style=" opacity: 0.9; color:Aquamarine; background-color:black;">Opacity 0.9</text><br>
+
+<b>Span Css style:</b><br>
+
+<span style="position:absolute;left:0;top:540; border-color:Black;border-style:groove; border-width:9;width:60"> THIS IS A SPAN</span><br><br><br><br>
+
+<b>Background Linear Gradient Image Css Style:</b><br>
+
+<div id="grad1"></div><br>
+
+<b>Background Linear Repeating Gradient Image Css Style:</b><br>
+
+<div id="grad2"></div><br>
+
+<b>Borders Css Style:</b><br><br>
+
+<text  style="  border: 5px solid Purple;">Border example solid line</text><br><br>
+
+<text  style="  border: 4px dotted Purple;">Border example dotted line</text><br><br>
+
+<text  style="  border: double;">Border example double line</text><br><br>
+
+<b>Border bottoms Css Style:</b><br><br>
+
+<text  style="  border-bottom: 6px dotted Purple;">Border bottom example dotted line</text><br><br>
+
+<text  style="  border-bottom: double;">Border bottom example double line</text><br><br>
+
+<text  style="  border-bottom: 5px solid Purple;">Border bottom example solid line</text><br><br>
+
+<b>Cursor Css Style:</b><br>
+
+<p class="cell">cell</p>
+
+<p class="crosshair">crosshair</p>
+
+<p class="no-drop">no-drop</p>
+
+<p class="progress">progress</p>
+
+<p class="wait">wait</p>
+
+<b>Transform Css Style:</b><br><br>
+
+<text>Transform rotated 40 degrees</text><br><br><br>
+
+<div class="a">This is an example of transform</div><br>
+
+
+
+
+
+
+
+
+
+
+
+

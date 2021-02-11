@@ -1,12 +1,12 @@
 <html>
 <body style="background-color:Aquamarine;">
 
-<h1 align=center>T3A03-webpage-Liam.html</h1>
+<h1 align=center style="color:Aquamarine; background-color:black;">T3A03-webpage-Liam.html</h1>
 
 </body>
 </html>
 
-<b>Text, Webpage basic stuff</b><br><br>
+<b style="color:White; background-color:blue;">Text, Webpage basic stuff</b><br><br>
 
 Button: <input type=button value="Cool Button" onClick="{
    alert('Hello')                                                    
