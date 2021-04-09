@@ -1,0 +1,57 @@
+<script>
+
+function myFun(myVar){ document.getElementById('mySpan02').innerHTML = 'Hello how are you today '+myVar
+}
+function mySec(myRay){ document.getElementById('mySpan03').innerHTML = 'Good day '+myRay
+
+}
+</script>
+
+<html>
+<body style="background-color:Aquamarine;">
+
+<h1 align=center style="color:Aquamarine; background-color:black;">T3A13-functions-Liam,M.html</h1>
+
+</body>
+</html>
+
+<script>
+function myBasicFun(){
+    document.getElementById('mySpan01').innerHTML = "wow"
+}
+function myAdvancedFun(x,y){
+    return x*y
+}
+</script>
+
+<input id="myText01" type=text value=3 ><br><br>
+<input type=button value="Run function" onclick="{
+    myBasicFun()
+}"><br><br>
+<input type=button value="Advanced" onclick="{
+    document.getElementById('mySpan01').innerHTML = myAdvancedFun(3,2)
+}"><br><br>
+<span id="mySpan01" >...</span><br><br>
+
+Enter a Name: <input type=text id= "myText02" value="Liam">
+
+<input type="button" value="Say hi" onclick="{
+
+myFun(document.getElementById('mySpan02').innerHTML = document.getElementById('myText02').value)
+
+
+}"><br>
+
+<div id="mySpan02">...</div>
+<hr>
+
+Enter a Name: <input type=text id= "myText03" value="Liam">
+
+<input type="button" value="Hello" onclick="{
+
+mySec(document.getElementById('mySpan03').innerHTML = document.getElementById('myText03').value)
+
+
+}"><br>
+
+<div id="mySpan03">...</div>

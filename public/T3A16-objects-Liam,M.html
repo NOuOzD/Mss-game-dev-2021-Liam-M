@@ -1,0 +1,23 @@
+<html>
+<body style="background-color:Aquamarine;">
+
+<h1 align=center style="color:Aquamarine; background-color:black;">T3A16-objects-Liam,M.html</h1>
+
+</body>
+</html>
+
+Enter an age into the object: <input id="myText01" type=text value=21 ><br><br>
+
+
+<input type=button value="Make and Show Object" onclick="{
+ let myObject = {
+         'firstName' : 'John',
+         'age' : 21
+ }
+ 
+ document.getElementById('mySpan01').innerHTML ='myObject.firstName: ' + myObject.firstName + '<br>myObject.age: ' + myObject.age
+
+}"><br><br>
+
+
+<span id="mySpan01">..</span><br><br>

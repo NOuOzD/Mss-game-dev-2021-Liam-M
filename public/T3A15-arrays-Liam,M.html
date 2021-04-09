@@ -1,0 +1,29 @@
+<html>
+<body style="background-color:Aquamarine;">
+
+<h1 align=center style="color:Aquamarine; background-color:black;">T3A15-arrays-Liam,M.html</h1>
+
+</body>
+</html>
+
+<input id="myText01" type=text value=3 ><br><br>
+
+<input type=button value="Make and Show Array" onclick="{
+    document.myArray = new Array()
+    document.myArray[0] = 7;
+    document.myArray[0] = 3;
+    document.myArray[0] = 8;
+
+    document.getElementById('mySpan01').innerHTML = '[1] value is: '+documnet.myArray[1]
+    }"><br><br>
+    
+    <input type=button value="Loop Through Array" onclick="{
+        myTemp = ''
+        for (i=0; i<3; i++){
+        myTemp += 'Array value: ' + i + ', is: '+ document.myArray[i] + '<br>'
+        }
+        document.getElementById('mySpan01').innerHTML = myTemp
+        
+}"><br><br>
+
+<span id="mySpan01" >...</span><br><br>

@@ -1,0 +1,132 @@
+<html>
+<body style="background-color:Aquamarine;">
+
+<h1 align=center style="color:Aquamarine; background-color:black;">T3A09-Events-Liam,M.html</h1>
+
+</body>
+</html>
+
+<body onkeydown="{
+    let myArrowkey = event.KeyCode
+    let myAlphakey = event.key 
+
+    if (myArrowkey == 37) {
+        document.getElementById('mySpan01').innerHTML = 'Hi from onkeyDown left arrow pressed'
+    }
+
+    if (myAlphakey == 'd') {
+        document.getElementById('mySpan01').innerHTML = 'Hi from onkeyDown d key pressed'
+    }
+}"> 
+
+Output span: <span id="mySpan01">...</span><br><br>
+
+Traditional onclick event: <input type=button value="onclick event" onclick="{
+    document.getElementById('mySpan01').innerHTML = 'Hi from onclick'
+}"> <br><br>
+
+This is <b>bold </b> this isn't<br>
+This is <b onmouseover="{
+    document.getElementById('mySpan01').innerHTML = 'Hi from onMouseOver'
+}"> bold and onMouseOver</b>this isn't<br><br>
+
+<hr>
+
+<p>This is onchange</p>
+
+Text: <input type="text" id="Textbox">
+
+<p>When you enter text and leave the text box in turns it all uppercase</p>
+
+<script>
+document.getElementById("Textbox").onchange = function() {myFunction3()};
+
+function myFunction3() {
+  var x = document.getElementById("Textbox");
+  x.value = x.value.toUpperCase();
+}
+</script>
+
+<hr>
+
+<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="Resources/HeroMain.png" alt="HeroMain" width="32" height="32">
+
+<p>This is onmouseout when hovering over the image it becomes bigger and when not it returns to normal</p>
+
+<script>
+function bigImg(x) {
+  x.style.height = "64px";
+  x.style.width = "64px";
+}
+
+function normalImg(x) {
+  x.style.height = "32px";
+  x.style.width = "32px";
+}
+</script>
+
+<hr>
+
+<p>onkeypress alerts when a key is pressed in text box</p>
+
+<input type="text" onkeypress="myFunction2()">
+
+<script>
+function myFunction2() {
+  alert("key pressed inside the text box");
+}
+</script>
+
+<body onload="myFunction()">  
+    
+    <script>
+    function myFunction() {
+      alert("The page loaded onload event");
+    }
+    </script>
+
+<hr>
+
+onselect event: <input type="text" value="selected" onselect="myFunction1()">
+
+<script>
+function myFunction1() {
+  alert("You selected the text");
+}
+</script>
+
+<hr>
+
+<style>
+    div {
+      width: 300px;
+      height: 200px;
+      border: 1px solid black;
+    }
+    </style>
+    </head>
+    <body>
+    
+    <div onmousemove="myFunction4(event)" onmouseout="clearCoor()"></div>
+    
+    <p>Mouse over the rectangle get the coordinates of your mouse</p>
+    
+    <p id="Mousecord"></p>
+    
+    <script>
+    function myFunction4(e) {
+      var x = e.clientX;
+      var y = e.clientY;
+      var coor = "Coordinates: (" + x + "," + y + ")";
+      document.getElementById("Mousecord").innerHTML = coor;
+    }
+    
+    function clearCoor() {
+      document.getElementById("Mousecord").innerHTML = "";
+    }
+    </script>
+    
+
+</body>
+
+
