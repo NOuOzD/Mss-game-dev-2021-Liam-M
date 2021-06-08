@@ -1,0 +1,99 @@
+<html>
+<body>
+
+<h1 align=center style="color:rgba(255, 60, 0, 0.932); background-color:black;">THE END</h1><br><br><br><br><br><br><br><br>
+
+</body>
+</html>
+
+
+<body onMouseMove="{myMoveFunction(event)}">
+<body id="myBody" style="background-repeat:repeat; background-size: 80%" background="https://i.pinimg.com/564x/3f/94/c5/3f94c58055ea656151b93911428c7473.jpg"></body>
+
+<h1 align=center style="color:rgba(0, 0, 0, 0.932);background-color:rgb(255, 0, 0);"><b><p>RESTART?</p></b></h1>
+
+<script>
+
+function myMoveFunction(event){
+
+   document.getElementById('myDiv01').innerHTML = 'mouse X: '+ event.clientX +', mouse Y: '+event.clientY
+   document.getElementById('mySpan01').style.left = event.clientX  + 10
+   document.getElementById('mySpan01').style.top = event.clientY 
+
+
+   myCheckAll()
+
+}
+
+let myGlobalX = 0
+let myClock
+let myTimer02
+let myTimer03 
+
+
+function myHitOther(my1,my2){
+   left1   = parseInt(document.getElementById(my1).style.left)
+   right1  = left1 + parseInt(document.getElementById(my1).style.width)
+   top1    = parseInt(document.getElementById(my1).style.top)   
+   bottom1 = top1   + parseInt(document.getElementById(my1).style.height)
+   left2   = parseInt(document.getElementById(my2).style.left)
+   right2  = left2 + parseInt(document.getElementById(my2).style.width)
+   top2    = parseInt(document.getElementById(my2).style.top)   
+   bottom2 = top2   + parseInt(document.getElementById(my2).style.height)
+   if ((right1  >=  left2  ) &&      	   
+       (bottom1 >=  top2   ) &&
+       (left1   <=  right2 ) &&
+       (top1    <=  bottom2) ){
+       return true
+   }
+}
+
+
+function myCheckAll(){
+  if(myHitOther('mySpan01', 'mySpan02')){
+    document.getElementById('mySpan02').style.left = '-400px'
+    alert('RESTARTED')
+    location = 'T4F0-Start-Liam,M.html'
+  }
+
+  if(myHitOther('mySpan01', 'mySpan03')){
+    document.getElementById('mySpan03').style.left = '-400px'
+  }
+
+  // your other checks go here
+
+}
+
+
+
+ // document.body.style.cursor = 'none'   // crappy to lose your cursor
+
+</script>
+
+<body id="myBody" onLoad="{
+
+
+  clearInterval(myClock)
+  let myTemp = '100px 0px'
+  myClock = setInterval(function(){
+      myGlobalX -= 1
+      myTemp = myGlobalX + 'px 0px'
+      document.getElementById('myBody').style.backgroundPosition = myTemp
+  }, 100)
+
+}">
+
+
+
+                        
+
+    
+
+<div id="myDiv01">...</div>
+
+<img id="mySpan01" src="Resources/HeroMain.png" style="position:absolute; width:100px; height:100px; top:150px; left:100px;"  src="Resources/HeroMain.png">
+<img id="mySpan02" src="Resources/Wincrystal.png" style="position:absolute; width:150px; height:100px; top:300px; left:880px;" src="Resources/Wincrystal.png">
+
+</body>
+
+​
